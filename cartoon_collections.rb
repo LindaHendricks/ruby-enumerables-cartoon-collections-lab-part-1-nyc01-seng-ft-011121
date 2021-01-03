@@ -16,7 +16,8 @@ def list_dwarves(array)
        puts "#{index}. #{element}"
        index += 1
  end
- num_list << index, element
+ 
+ num_list << index element
  end 
  num_list
   # Use `each_with_index` to enumerate over the provided array
